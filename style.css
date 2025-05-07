@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #f9fafc;
+}
+
+.container {
+    width: 600px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+input[name="username"], input[name="password"]
+{
+    padding: 10px 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+
+input[type="text"],
+select {
+    padding: 10px 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+form button {
+    padding: 12px;
+    font-size: 16px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+form button:hover {
+    background: #0056b3;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background: #007bff;
+    color: white;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    text-align: center;
+    background: #f1eaea;
+    padding: 50px;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.05);
+}
+header h1 {
+    margin: 0;
+    font-size: 60px;
+    color: #2a6aad;
+    top: 9%;
+    
+}
+header h3 {
+    margin: 0;
+    font-size: 19px;
+    color: #325b88;
+    text-align: right;
+    
+}
+h2 {
+text-align:center;
+font-size: 30px;
+}
+header img {
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    transform: translateY(-50%);
+    height: 20%;
+    margin: 0;
+}
+.bg-shape-left {
+ position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+z-index: -1;
+filter: brightness(90%);
+}
+body {
+    position: relative;
+    overflow-x: hidden;
+}
+.bg-shape-right {
+position: absolute;
+top: 0;
+right: 0;
+height: 100%;
+z-index: -1;
+filter: brightness(90%);
+  }
+.bg-left-banner {
+position: absolute;
+top: 0;
+left: 0;
+height: 100vh;
+z-index: -1;
+pointer-events: none;
+opacity: 0.8;
+  }
+  
